@@ -1,0 +1,166 @@
+body{
+  font-family: 'monsterrat';
+}
+#title{
+  background-color:#9AB3F5;
+  color: white;
+
+
+}
+
+.container-fluid{
+  padding: 5% 18% 16%;
+}
+
+h1{
+  font-family:"montserrat-black";
+  font-size:3.5rem;
+  line-height:1.5;
+  font-weight:bold;
+
+}
+
+/* navigation-bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family:'ubuntu';
+  font-size: 2rem;
+}
+.nav-item {
+font-size: 1.3rem;
+padding:0 18px;
+font-family:'montserrat-light';
+}
+.download-button{
+  margin: 5% 3%;
+}
+.title-image{
+  width:55%;
+  transform: rotate(18deg);
+  position:absolute;
+  right:20%;
+
+}
+
+#features{
+  padding: 7% 15%;
+
+  background-color:white;
+  position:relative;
+  z-index:1;
+}
+
+
+.feature-box{
+  text-align:center;
+  padding:2%;
+}
+h3{
+  font-family:'montserrat-Bold';
+  font-size:1.8rem;
+}
+
+p{
+  color:#8f8f8f;
+  font-size:20px;
+}
+.fas{
+  color:#617BE3;
+  margin-bottom:1rem;
+}
+.fas:hover{
+  color:#B2DFFB;
+}
+/* testimonial section */
+#testimonials{
+  padding:7% 20%;
+  text-align: center;
+  background-color:#B9CCED;
+
+}
+h2{
+  font-family:'monsterrat-Bold';
+  font-size:3rem;
+  line-height:1;
+  color:white;
+
+}
+
+.testmonial-image{
+
+  width:18%;
+  border-radius:80%;
+  margin:3%;
+}
+#press{
+  background-color:#B9CCED;
+  text-align:center;
+  padding-bottom:50px;
+}
+.press-logo{
+  width:10%;
+  margin:20px 20px 50px;
+}
+.button-1{
+  padding-top:20%;
+
+}
+/* pricing section */
+#pricing{
+  padding:100px;
+  text-align: center;
+
+}
+h4{
+  font-family:'monsterrat-Bold';
+  font-size: 3rem;
+}
+h5{font-family:'monsterrat-Bold';
+  font-size: 2.5rem;
+}
+h6{
+  font-family:'monsterrat-Bold';
+  font-size:2rem;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+@media(max-width:1124px){
+  #title{
+    text-align:center;
+  }
+  .title-image{
+    position:static;
+    transform:rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  background-color:#B9CCED;
+  padding:9% 5% 6%;
+
+  font-family:'monsterrat-Black';
+  color:white;
+}
+.cta-heading{
+  font-size:3.5rem;
+  font-family:'monsterrat-Black';
+  line-height: 1.5;
+
+}
+.cta-button{
+  margin: 2% 1.5%;
+}
+#footer{
+  text-align:center;
+  padding-top:4%;
+}
+.footer-text{
+font-size:17px;
+}
+.pricing-text{
+  font-size:21px;
+}
